@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Pie from '../views/Pie.vue'
 import Table from '../views/Table.vue'
+import Edit from '../views/Edit.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -19,6 +20,11 @@ const routes = [
     path: '/tabel',
     name: 'tabel',
     component: Table
+  },
+  {
+    path: '/edit',
+    name: 'edit',
+    component: Edit
   }
 ]
 
